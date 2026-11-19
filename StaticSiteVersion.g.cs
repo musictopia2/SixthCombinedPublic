@@ -2,5 +2,5 @@
 namespace SixthCombinedPublic;
 public static class StaticSiteVersion
 {
-    public const string Version = "11.2";
+    public const string Version = "11.3";
 }

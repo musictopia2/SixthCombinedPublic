@@ -1,6 +1,6 @@
 self.importScripts('./service-worker-assets.js');
 
-const version = '11.2';
+const version = '11.3';
 
 const scopeUrl = new URL(self.registration.scope);
 const indexUrl = new URL('index.html', scopeUrl).href;
