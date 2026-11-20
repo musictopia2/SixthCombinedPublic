@@ -22,6 +22,18 @@
         "Gateway__PathBase": "/sixthcombinedpublic"
       },
       "launchUrl": "sixthcombinedpublic/"
+    },
+    "lan-https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "$(StaticSiteLanApplicationUrl)",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Kestrel__Certificates__Default__Path": "$(StaticSiteLanCertificatePath)",
+        "Kestrel__Certificates__Default__KeyPath": "$(StaticSiteLanKeyPath)"
+      },
+      "launchUrl": "$(StaticSiteLanLaunchUrl)"
     }
   }
 }
